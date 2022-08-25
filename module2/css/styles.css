@@ -9,6 +9,7 @@
 }
 
 /* Body will accumulate to left (or right) sections margin, to make browser-section space equal to section-section space */
+
 body {
 	margin: auto 5px;
 }
