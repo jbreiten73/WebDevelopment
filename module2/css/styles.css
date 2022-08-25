@@ -48,9 +48,9 @@ p.title {
 
 /* Color to section titles
  */
-#s1 {background-color: #E5D198;}
-#s2 {background-color: #668D4E;}
-#s3 {background-color: #F6B319;}
+#chicken {background-color: #F6E2A9;}
+#beef {background-color: #668D4E;}
+#sushi {background-color: #F6B319;}
 
 /* Margin top defined to avoid "coallition" with section title. Padding defined
  */
@@ -68,7 +68,7 @@ p.content {
 
 /********** Desktop view **********/
 @media (min-width: 992px) {
-	.col-dtp-4 {
+	.col-lg-4 {
 		float: left;
 		width: 33.33%;
 	}
@@ -76,22 +76,22 @@ p.content {
 
 /********** Tablet view **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-tbl-6, .col-tbl-12 {
+	.col-md-6, .col-md-12 {
 		float: left;
 	}
 
-	.col-tbl-6 {
+	.col-md-6 {
 		width: 50%;
 	}
 
-	.col-tbl-12 {
+	.col-md-12 {
 		width: 100%;
 	}
 }
 
 /********** Mobile view **********/
 @media (max-width: 767px) {
-	.col-mob-12 {
+	.col-sm-12 {
 		width: 100%;
 		float: left;
 	}
