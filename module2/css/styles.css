@@ -31,7 +31,7 @@ section {
 	position: relative;
 	margin: 10px;
 	border: 1px solid black;
-	background-color: #AAAAAA;
+	background-color: #BBBBBB;
 }
 
 /* Positioning of section title box with width and border definition. Text font and size (25% bigger than default) defined
@@ -49,7 +49,7 @@ p.title {
 /* Color to section titles
  */
 #s1 {background-color: #E5D198;}
-#s2 {background-color: #446B2D;}
+#s2 {background-color: #668D4E;}
 #s3 {background-color: #F6B319;}
 
 /* Margin top defined to avoid "coallition" with section title. Padding defined
