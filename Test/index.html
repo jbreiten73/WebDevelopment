@@ -7,8 +7,8 @@ let arr0=Array.from(arguments).slice(0,1);
 let rvals=Array.from(arguments).slice(1);
 
 for(let i=0; i<rvals.length;i++){
-   if(arr0.indexOf(rvals[i],i)>0){
-   delete arr0[indexOf(rvals[i],i)]; 
+   if(arr0.indexOf(rvals[i])>0){
+   delete arr0[indexOf(rvals[i])]; 
 }
 document.write(arr0);
 }
