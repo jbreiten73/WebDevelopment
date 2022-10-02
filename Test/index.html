@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <h2>kleine Testseite</h2>
-<script>
-alert("Hoffentlich funktioniert es!");
+<script>  
+function destroyer(arr){
+let arr0=Array.from(arguments).slice(0,1);
+let rvals=Array.from(arguments).slice(1);
+document.write(arr0);
+document.write(rvals);
+}
+destroyer([1,2,3,2,3,4,5],2,3);
 </script>
 </html>
