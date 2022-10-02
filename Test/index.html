@@ -6,14 +6,16 @@ function destroyer(arr){
 let arr0=Array.from(arguments).slice(0,1);
 let rvals=Array.from(arguments).slice(1);
 let arr1=[1,2,3,2,3,4,5];
-for(let i=0; i<rvals.length;i++){
-   document.write(rvals[i]);
-   document.write("Stop");
-   if(arr1.indexOf(rvals[i])>0){
-   delete arr1[indexOf(rvals[i])]; 
+let rvals1=[2,3];
+let targ=[];
+for(let i=0; i<arr1.length;i++){
+  for(let j=0;j<rvals1.length;j++){
+     if(arr1[i]==rvals1[j]){
+       targ.push(arr1[i]);
 }
+}  
 }
-document.write(arr1);
+document.write(targ);
 document.write("Test");
 }
 destroyer([1,2,3,2,3,4,5],2,3);
