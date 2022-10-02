@@ -7,13 +7,17 @@ let arr0=Array.from(arguments).slice(0,1);
 let rvals=Array.from(arguments).slice(1);
 let arr1=[1,2,3,2,3,4,5];
 let rvals1=[2,3];
+let c=arr1.concat(rvals1);
 let targ=[];
-for(let i=0; i<arr1.length;i++){
+for(let i=0; i<c.length;i++){
+  let rel=false;
   for(let j=0;j<rvals1.length;j++){
-     if(arr1[i]!=rvals1[j]){
-       targ.push(arr1[i]);
+     if(c[i]!=rvals1[j]){
+       rel=true;
 }
 }  
+if(rel==false){
+targ.push(c[i]);
 }
 document.write(targ);
 document.write("Test");
