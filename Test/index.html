@@ -5,8 +5,12 @@
 function destroyer(arr){
 let arr0=Array.from(arguments).slice(0,1);
 let rvals=Array.from(arguments).slice(1);
-document.write(typeof arr0);
-document.write(typeof rvals);
+
+for(let i=0; i<rvals.length;i++){
+   if(arr0.indexOf(rvals[i],i)>0){
+   delete arr0[indexOf(rvals[i],i)]; 
+}
+document.write(arr0);
 }
 destroyer([1,2,3,2,3,4,5],2,3);
 </script>
